@@ -1,8 +1,4 @@
-
-
 import java.sql.*;
-
-
 
 public class Dbconnect {
     private String dbname, username, password;
