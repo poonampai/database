@@ -1,3 +1,2 @@
 # ignore all the nb configs and build files
 build/
-nbproject/
