@@ -11,9 +11,9 @@ public class Dbconnect {
     
     public  Dbconnect(){
         try{
-            Class.forName("com.mysql.jdbc.Driver'.");
+            Class.forName("com.mysql.jdbc.Driver");
             
-           con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jk","root","");
+           con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mini","root","");
             st = con.createStatement();
              
         }catch(Exception ex){
